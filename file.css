@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Playfair Display";
+    display: inline-flex;
+}
+.Font-18px{
+    font-size: 18px !important;
+}
+.Font-36px{
+    font-size: 36px !important;
+}
+.Font-15px{
+    font-size: 15px !important;
+}
+.Font-20px {
+    font-size: 20px !important;
+}
+.Letter-spacing {
+    letter-spacing: 5px !important;
+}
+.Font-weight {
+    font-weight: 500;
+}
+:Root {
+    --gray-color : #757575 !important;
+    --green-color : #607D8B !important;
+    --brown-color : #f1f1f1 !important;
+    --black-color : #000 !important;
+    --white-color : #fff !important;
+}
+.Padding-large {
+    padding: 12px 24px !important;
+}
+.Padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.Border-solid-1px {
+    border-bottom: 1px solid #eee !important;
+}
+.Margin-10px {
+    margin: 10px 0 !important;
+}
+.Margin-18px {
+    margin: 18px 0;
+}
+.Margin-15px{
+    margin: 15px 0 !important;
+}
+.Padding-16px{
+    padding: 0 16px;
+}
+/* Header here */
+#wrap {
+
+}
+
+#header {
+height: 54px;
+background-color: var(--white-color);
+}
+#header .Abour-header{
+    line-height: 54px;
+    box-shadow: 10px 0 0 rgba(0, 0, 0, 0.3);
+}
+#header .Abour-header  a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black-color);
+    letter-spacing: 5px;
+}
+
+#header .Title-header {
+
+}
+
+#header .Include-header {
+    float: right;
+}
+
+
+
+#slider {
+background: url(./img/hamburger.jpg) top center / cover no-repeat;
+padding-top : 50%;
+position: relative;
+}
+#slider .Title-slider {
+    position: absolute;
+    bottom: 46px;
+    letter-spacing: 5px;
+}
+
+
+#content {
+
+}
+#content .About-content {
+display: flex;
+}
+
+#content .menu-img {
+
+padding: 0 12px;
+}
+#content .Include-content {
+    
+    float: right;
+    padding: 0px 24px;
+}
+
+#content .header-menu {
+    text-align: center;
+}
+
+#content .subheader-menu {
+text-align: center;
+}
+
+#content .dsp-menu {
+    text-align: justify;
+    line-height: 1.4;
+}
+#content .para-dsp {
+    color: var(--gray-color);
+}
+#content .About-content {
+    display: flex;
+}
+#content .para-our-menu {
+    padding: 0 12px;
+}
+#content .about-our-menu {
+    padding: 0px 24px;
+    transform: translateY(15%);
+}
+
+
+#footer {
+
+}
+#footer .heading-contact {
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 36px;
+
+}
+
+#footer .para-contact {
+
+}
+
+#footer .para-contact-different {
+
+}
+#footer .para-contact-different {
+    font-size: 18px;
+    color: var(--green-color);
+    opacity: 1;
+}
+#footer .para-contact {
+    font-size: 15px;
+}
+
+#footer .input-contact {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 8px;
+}
+
+#footer .button-contact {
+margin: 16px 0;
+padding: 8px 16px;
+border: none;
+}
+#footer .end {
+
+}
+
+
+
